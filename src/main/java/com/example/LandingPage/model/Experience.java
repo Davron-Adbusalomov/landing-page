@@ -9,7 +9,7 @@ import lombok.*;
 @NoArgsConstructor
 public class Experience {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String start_from;
